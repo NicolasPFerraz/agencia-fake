@@ -1,0 +1,33 @@
+@media only screen and (max-width: 478px) {
+    .menu {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+    }
+    .img-headline img {
+        width: 350px;
+        margin-top: 1rem;
+        height: auto;
+    }
+    .services-card {
+        flex-direction: column;
+    }
+    .header {
+        flex-direction: column;
+        padding: 6rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu {
+        display: none;
+    }
+    .logo {
+        text-align: center;
+    }
+    .header {
+        flex-direction: column;
+        padding: 6rem 1rem;
+    }
+}
